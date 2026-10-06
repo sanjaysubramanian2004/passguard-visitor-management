@@ -1,0 +1,6 @@
+{
+  "name": "PassGuard - MERN Visitor Pass Management System",
+  "description": "Enterprise-grade Visitor Pass Management System built with role-based access control, approval workflows, QR badge issuance, and security policy enforcement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

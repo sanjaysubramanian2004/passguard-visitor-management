@@ -1,0 +1,803 @@
+{
+  "users": [
+    {
+      "_id": "6ac492448072ec78d5142487",
+      "email": "admin@company.com",
+      "__v": 0,
+      "createdAt": "2026-10-06T06:16:36.393Z",
+      "department": "IT & Security Administration",
+      "designation": "System Administrator",
+      "id": "usr-admin-01",
+      "isActive": true,
+      "name": "Administrator",
+      "password": "095cc4ae108cae525de6982b920e4de75166aa1b96b82c29b0bc417a014a11a8",
+      "role": "ADMIN",
+      "updatedAt": "2026-10-06T11:42:03.870Z"
+    },
+    {
+      "_id": "6ac4b63403272debc1ab1abf",
+      "id": "usr-1791276596865",
+      "name": "Surya",
+      "email": "surya@gmail.com",
+      "password": "71758449687b25cc8a24478cde619cc0cc6a59651bfe4486273f39cc6e09cf5e",
+      "role": "RECEPTIONIST",
+      "department": "Engineering",
+      "designation": "Receptionist",
+      "isActive": true,
+      "createdAt": "2026-10-06T08:49:56.865Z",
+      "updatedAt": "2026-10-06T08:49:56.865Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4b6e203272debc1ab1ac0",
+      "id": "usr-1791276770558",
+      "name": "Divya",
+      "email": "divya@gmail.com",
+      "password": "26eaa20196bd43be6b35ae4b8b15a7172f8ffca0246db043499754106a5c0ec9",
+      "role": "RECEPTIONIST",
+      "department": "Engineering",
+      "designation": "Receptionist",
+      "isActive": true,
+      "createdAt": "2026-10-06T08:52:50.558Z",
+      "updatedAt": "2026-10-06T08:52:50.558Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4b73e03272debc1ab1ac2",
+      "id": "usr-1791276862379",
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "password": "92595ad832d5c3594d74b5b9cf9f1ba0f5d7f0bf15a94f45809128535d654253",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-1791276862379",
+      "department": "Backend",
+      "designation": "Employee",
+      "isActive": true,
+      "createdAt": "2026-10-06T08:54:22.455Z",
+      "updatedAt": "2026-10-06T08:54:22.455Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4b8da03272debc1ab1ac4",
+      "id": "usr-1791277274365",
+      "name": "Kalaivanan",
+      "email": "kalaivanan@gmail.com",
+      "password": "582b401bc101330ff1e955d8b425fb8d6f551f9e79e485707c31a779d049110c",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-1791277274365",
+      "department": "Frontend",
+      "designation": "Employee",
+      "isActive": true,
+      "createdAt": "2026-10-06T09:01:14.455Z",
+      "updatedAt": "2026-10-06T09:01:14.455Z",
+      "__v": 0
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-1791276862379",
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "department": "Backend",
+      "designation": "Employee",
+      "officeLocation": "HQ Main Campus",
+      "isActive": true,
+      "pendingRequestsCount": 0,
+      "maxPendingAllowed": 3
+    },
+    {
+      "id": "emp-1791277274365",
+      "name": "Kalaivanan",
+      "email": "kalaivanan@gmail.com",
+      "department": "Frontend",
+      "designation": "Employee",
+      "officeLocation": "HQ Main Campus",
+      "isActive": true,
+      "pendingRequestsCount": 0,
+      "maxPendingAllowed": 3
+    }
+  ],
+  "visitors": [
+    {
+      "_id": "6ac4960f2750fc6a84b44464",
+      "id": "vtr-1791268367962-l4k4",
+      "name": "thiran",
+      "phone": "12345890",
+      "email": "thiran@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-634773",
+      "createdAt": "2026-10-06T06:32:47.962Z",
+      "updatedAt": "2026-10-06T06:44:15.845Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac49a090dd6a5e1ad480a78",
+      "id": "vtr-1791269385631-fxqp",
+      "name": "kamal",
+      "phone": "12345678999",
+      "email": "kamal@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-475269",
+      "createdAt": "2026-10-06T06:49:45.631Z",
+      "updatedAt": "2026-10-06T06:49:45.631Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d40e9162a68f4cbea05b",
+      "id": "vtr-1791284238430-9gph",
+      "name": "Kathir",
+      "phone": "1234567890",
+      "email": "kathir@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-854496",
+      "createdAt": "2026-10-06T10:57:18.430Z",
+      "updatedAt": "2026-10-06T10:57:18.430Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d66f3e219b18d8077e94",
+      "id": "vtr-1791284847602-a2wb",
+      "name": "Anitha",
+      "phone": "0987654321",
+      "email": "anitha@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-570816",
+      "createdAt": "2026-10-06T11:07:27.602Z",
+      "updatedAt": "2026-10-06T11:07:27.602Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d6c13e219b18d8077e97",
+      "id": "vtr-1791284929103-0py6",
+      "name": "Vimal",
+      "phone": "6789054321",
+      "email": "vimal@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-129777",
+      "createdAt": "2026-10-06T11:08:49.103Z",
+      "updatedAt": "2026-10-06T11:08:49.103Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d7103e219b18d8077e9a",
+      "id": "vtr-1791285008556-roun",
+      "name": "Sunitha",
+      "phone": "456789043",
+      "email": "sunitha@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-136577",
+      "createdAt": "2026-10-06T11:10:08.556Z",
+      "updatedAt": "2026-10-06T11:10:08.556Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4db1ed56b35703b3459aa",
+      "id": "vtr-1791286046720-uefz",
+      "name": "Sathya",
+      "phone": "5643217890",
+      "email": "sathya@gmail.com",
+      "company": "",
+      "idType": "National ID",
+      "idNumber": "ID-985704",
+      "createdAt": "2026-10-06T11:27:26.720Z",
+      "updatedAt": "2026-10-06T11:27:26.720Z",
+      "__v": 0
+    }
+  ],
+  "visits": [
+    {
+      "_id": "6ac4d40e9162a68f4cbea05c",
+      "id": "vis-1791284238754",
+      "passNumber": "VP-2026-0101",
+      "visitorId": "vtr-1791284238430-9gph",
+      "employeeId": "emp-1791276862379",
+      "visitDate": "2026-10-06",
+      "expectedArrivalTime": "16:41",
+      "expectedDepartureTime": "17:00",
+      "purpose": "Business Meeting",
+      "customPurpose": "",
+      "status": "REJECTED",
+      "remarks": "",
+      "registeredBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST"
+      },
+      "createdAt": "2026-10-06T10:57:18.754Z",
+      "updatedAt": "2026-10-06T11:19:03.958Z",
+      "__v": 0,
+      "rejectedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "timestamp": "2026-10-06T11:19:03.957Z"
+      },
+      "rejectionReason": "Meeting"
+    },
+    {
+      "_id": "6ac4d66f3e219b18d8077e95",
+      "id": "vis-1791284847948",
+      "passNumber": "VP-2026-0102",
+      "visitorId": "vtr-1791284847602-a2wb",
+      "employeeId": "emp-1791276862379",
+      "visitDate": "2026-10-06",
+      "expectedArrivalTime": "16:51",
+      "expectedDepartureTime": "18:00",
+      "purpose": "Business Meeting",
+      "customPurpose": "",
+      "status": "CHECKED_IN",
+      "remarks": "",
+      "registeredBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST"
+      },
+      "createdAt": "2026-10-06T11:07:27.948Z",
+      "updatedAt": "2026-10-06T11:20:16.489Z",
+      "__v": 0,
+      "approvalRemarks": "Approved for campus perimeter access.",
+      "approvedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "timestamp": "2026-10-06T11:18:45.545Z"
+      },
+      "checkInTime": "2026-10-06T11:20:16.488Z",
+      "checkedInBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya"
+      }
+    },
+    {
+      "_id": "6ac4d6c13e219b18d8077e98",
+      "id": "vis-1791284929426",
+      "passNumber": "VP-2026-0103",
+      "visitorId": "vtr-1791284929103-0py6",
+      "employeeId": "emp-1791277274365",
+      "visitDate": "2026-10-06",
+      "expectedArrivalTime": "16:52",
+      "expectedDepartureTime": "19:00",
+      "purpose": "Business Meeting",
+      "customPurpose": "",
+      "status": "CHECKED_OUT",
+      "remarks": "",
+      "registeredBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST"
+      },
+      "createdAt": "2026-10-06T11:08:49.426Z",
+      "updatedAt": "2026-10-06T11:20:45.096Z",
+      "__v": 0,
+      "approvalRemarks": "Approved for campus perimeter access.",
+      "approvedBy": {
+        "id": "usr-1791277274365",
+        "name": "Kalaivanan",
+        "role": "EMPLOYEE",
+        "timestamp": "2026-10-06T11:19:51.815Z"
+      },
+      "checkInTime": "2026-10-06T11:20:28.578Z",
+      "checkedInBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya"
+      },
+      "checkOutTime": "2026-10-06T11:20:45.096Z",
+      "checkedOutBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya"
+      }
+    },
+    {
+      "_id": "6ac4d7103e219b18d8077e9b",
+      "id": "vis-1791285008887",
+      "passNumber": "VP-2026-0104",
+      "visitorId": "vtr-1791285008556-roun",
+      "employeeId": "emp-1791276862379",
+      "visitDate": "2026-10-06",
+      "expectedArrivalTime": "16:54",
+      "expectedDepartureTime": "17:00",
+      "purpose": "Business Meeting",
+      "customPurpose": "",
+      "status": "CHECKED_OUT",
+      "remarks": "",
+      "registeredBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST"
+      },
+      "createdAt": "2026-10-06T11:10:08.887Z",
+      "updatedAt": "2026-10-06T11:20:37.258Z",
+      "__v": 0,
+      "approvalRemarks": "Approved for campus perimeter access.",
+      "approvedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "timestamp": "2026-10-06T11:18:38.153Z"
+      },
+      "checkInTime": "2026-10-06T11:20:03.013Z",
+      "checkedInBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya"
+      },
+      "checkOutTime": "2026-10-06T11:20:37.257Z",
+      "checkedOutBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya"
+      }
+    },
+    {
+      "_id": "6ac4db1fd56b35703b3459ab",
+      "id": "vis-1791286047069",
+      "passNumber": "VP-2026-0105",
+      "visitorId": "vtr-1791286046720-uefz",
+      "employeeId": "emp-1791276862379",
+      "visitDate": "2026-10-06",
+      "expectedArrivalTime": "17:11",
+      "expectedDepartureTime": "18:00",
+      "purpose": "Business Meeting",
+      "customPurpose": "",
+      "status": "REJECTED",
+      "remarks": "",
+      "registeredBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST"
+      },
+      "createdAt": "2026-10-06T11:27:27.069Z",
+      "updatedAt": "2026-10-06T11:28:04.911Z",
+      "__v": 0,
+      "rejectedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "timestamp": "2026-10-06T11:28:04.910Z"
+      },
+      "rejectionReason": "Meeting"
+    }
+  ],
+  "activityLogs": [
+    {
+      "_id": "6ac496102750fc6a84b44466",
+      "id": "act-1791268368377-87xzm",
+      "visitId": "vis-1791268368305",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-admin-01",
+        "name": "Administrator",
+        "role": "ADMIN",
+        "email": "admin@company.com"
+      },
+      "details": "Visitor registration submitted for thiran (Direct) visiting Kalaivanan (Engineering) on 2026-10-06 at 12:17.",
+      "remarks": "",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "thiran",
+      "createdAt": "2026-10-06T06:32:48.377Z",
+      "updatedAt": "2026-10-06T06:32:48.377Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4973f0dd6a5e1ad480a76",
+      "id": "act-1791268671492-essd5",
+      "visitId": "vis-1791268368305",
+      "action": "APPROVED",
+      "performedBy": {
+        "id": "usr-emp-1791266603765",
+        "name": "Kalaivanan",
+        "role": "EMPLOYEE",
+        "email": "kalaivanan@gmail.com"
+      },
+      "details": "Visit approved by Kalaivanan. Pass ready for front desk check-in.",
+      "remarks": "Approved for campus perimeter access.",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "thiran",
+      "createdAt": "2026-10-06T06:37:51.492Z",
+      "updatedAt": "2026-10-06T06:37:51.492Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac499490dd6a5e1ad480a77",
+      "id": "act-1791269193075-4ptd7",
+      "visitId": "vis-1791268368305",
+      "action": "CHECKED_IN",
+      "performedBy": {
+        "id": "usr-1791267075351",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor verified identity (National ID - ID-634773) and checked in at Front Reception. QR Badge issued.",
+      "remarks": "",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "thiran",
+      "createdAt": "2026-10-06T06:46:33.075Z",
+      "updatedAt": "2026-10-06T06:46:33.075Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac49a0a0dd6a5e1ad480a7a",
+      "id": "act-1791269386035-wky1x",
+      "visitId": "vis-1791269385955",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791267075351",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor registration submitted for kamal (Direct) visiting Kalaivanan (Engineering) on 2026-10-06 at 12:33.",
+      "remarks": "",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "kamal",
+      "createdAt": "2026-10-06T06:49:46.035Z",
+      "updatedAt": "2026-10-06T06:49:46.035Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac49a5b0dd6a5e1ad480a7b",
+      "id": "act-1791269467579-4yyfp",
+      "visitId": "vis-1791268368305",
+      "action": "CHECKED_OUT",
+      "performedBy": {
+        "id": "usr-1791267075351",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor badge returned. Checked out of premises. Total on-site time: 5 minutes.",
+      "remarks": "",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "thiran",
+      "createdAt": "2026-10-06T06:51:07.579Z",
+      "updatedAt": "2026-10-06T06:51:07.579Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac49a910dd6a5e1ad480a7c",
+      "id": "act-1791269521771-uzy61",
+      "visitId": "vis-1791269385955",
+      "action": "REJECTED",
+      "performedBy": {
+        "id": "usr-emp-1791266603765",
+        "name": "Kalaivanan",
+        "role": "EMPLOYEE",
+        "email": "kalaivanan@gmail.com"
+      },
+      "details": "Visit request rejected by Kalaivanan. Reason: meeting",
+      "remarks": "meeting",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "kamal",
+      "createdAt": "2026-10-06T06:52:01.771Z",
+      "updatedAt": "2026-10-06T06:52:01.771Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4a0be70ab9cfddda240a2",
+      "id": "act-1791271102747-wnonv",
+      "visitId": "vis-1791269385955",
+      "action": "CANCELLED",
+      "performedBy": {
+        "id": "usr-admin-01",
+        "name": "Administrator",
+        "role": "ADMIN",
+        "email": "admin@company.com"
+      },
+      "details": "Visit pass VP-2026-0102 permanently deleted by Administrator.",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "vis-1791269385955",
+      "createdAt": "2026-10-06T07:18:22.747Z",
+      "updatedAt": "2026-10-06T07:18:22.747Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d3bf9162a68f4cbea05a",
+      "id": "act-1791284159113-dih71",
+      "visitId": "vis-1791268368305",
+      "action": "CANCELLED",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visit pass VP-2026-0101 permanently deleted by Divya.",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "vis-1791268368305",
+      "createdAt": "2026-10-06T10:55:59.113Z",
+      "updatedAt": "2026-10-06T10:55:59.113Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d40e9162a68f4cbea05d",
+      "id": "act-1791284238823-ffe7t",
+      "visitId": "vis-1791284238754",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST",
+        "email": "surya@gmail.com"
+      },
+      "details": "Visitor registration submitted for Kathir (Direct) visiting Priya (Backend) on 2026-10-06 at 16:41.",
+      "remarks": "",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "Kathir",
+      "createdAt": "2026-10-06T10:57:18.823Z",
+      "updatedAt": "2026-10-06T10:57:18.823Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d6703e219b18d8077e96",
+      "id": "act-1791284848019-9rfj0",
+      "visitId": "vis-1791284847948",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor registration submitted for Anitha (Direct) visiting Priya (Backend) on 2026-10-06 at 16:51.",
+      "remarks": "",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "Anitha",
+      "createdAt": "2026-10-06T11:07:28.019Z",
+      "updatedAt": "2026-10-06T11:07:28.019Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d6c13e219b18d8077e99",
+      "id": "act-1791284929494-86l81",
+      "visitId": "vis-1791284929426",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor registration submitted for Vimal (Direct) visiting Kalaivanan (Frontend) on 2026-10-06 at 16:52.",
+      "remarks": "",
+      "passNumber": "VP-2026-0103",
+      "visitorName": "Vimal",
+      "createdAt": "2026-10-06T11:08:49.494Z",
+      "updatedAt": "2026-10-06T11:08:49.494Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d7103e219b18d8077e9c",
+      "id": "act-1791285008954-lgvel",
+      "visitId": "vis-1791285008887",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor registration submitted for Sunitha (Direct) visiting Priya (Backend) on 2026-10-06 at 16:54.",
+      "remarks": "",
+      "passNumber": "VP-2026-0104",
+      "visitorName": "Sunitha",
+      "createdAt": "2026-10-06T11:10:08.954Z",
+      "updatedAt": "2026-10-06T11:10:08.954Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d90e104ca3af67cacef7",
+      "id": "act-1791285518240-56dr0",
+      "visitId": "vis-1791285008887",
+      "action": "APPROVED",
+      "performedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "email": "priya@gmail.com"
+      },
+      "details": "Visit approved by Priya. Pass ready for front desk check-in.",
+      "remarks": "Approved for campus perimeter access.",
+      "passNumber": "VP-2026-0104",
+      "visitorName": "Sunitha",
+      "createdAt": "2026-10-06T11:18:38.240Z",
+      "updatedAt": "2026-10-06T11:18:38.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d915104ca3af67cacef8",
+      "id": "act-1791285525616-9brz8",
+      "visitId": "vis-1791284847948",
+      "action": "APPROVED",
+      "performedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "email": "priya@gmail.com"
+      },
+      "details": "Visit approved by Priya. Pass ready for front desk check-in.",
+      "remarks": "Approved for campus perimeter access.",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "Anitha",
+      "createdAt": "2026-10-06T11:18:45.616Z",
+      "updatedAt": "2026-10-06T11:18:45.616Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d928104ca3af67cacef9",
+      "id": "act-1791285544026-y633y",
+      "visitId": "vis-1791284238754",
+      "action": "REJECTED",
+      "performedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "email": "priya@gmail.com"
+      },
+      "details": "Visit request rejected by Priya. Reason: Meeting",
+      "remarks": "Meeting",
+      "passNumber": "VP-2026-0101",
+      "visitorName": "Kathir",
+      "createdAt": "2026-10-06T11:19:04.026Z",
+      "updatedAt": "2026-10-06T11:19:04.026Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d957104ca3af67cacefa",
+      "id": "act-1791285591884-1subj",
+      "visitId": "vis-1791284929426",
+      "action": "APPROVED",
+      "performedBy": {
+        "id": "usr-1791277274365",
+        "name": "Kalaivanan",
+        "role": "EMPLOYEE",
+        "email": "kalaivanan@gmail.com"
+      },
+      "details": "Visit approved by Kalaivanan. Pass ready for front desk check-in.",
+      "remarks": "Approved for campus perimeter access.",
+      "passNumber": "VP-2026-0103",
+      "visitorName": "Vimal",
+      "createdAt": "2026-10-06T11:19:51.884Z",
+      "updatedAt": "2026-10-06T11:19:51.884Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d963104ca3af67cacefb",
+      "id": "act-1791285603079-ghip9",
+      "visitId": "vis-1791285008887",
+      "action": "CHECKED_IN",
+      "performedBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST",
+        "email": "surya@gmail.com"
+      },
+      "details": "Visitor verified identity (National ID - ID-136577) and checked in at Front Reception. QR Badge issued.",
+      "remarks": "",
+      "passNumber": "VP-2026-0104",
+      "visitorName": "Sunitha",
+      "createdAt": "2026-10-06T11:20:03.079Z",
+      "updatedAt": "2026-10-06T11:20:03.079Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d970104ca3af67cacefc",
+      "id": "act-1791285616553-r17lb",
+      "visitId": "vis-1791284847948",
+      "action": "CHECKED_IN",
+      "performedBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST",
+        "email": "surya@gmail.com"
+      },
+      "details": "Visitor verified identity (National ID - ID-570816) and checked in at Front Reception. QR Badge issued.",
+      "remarks": "",
+      "passNumber": "VP-2026-0102",
+      "visitorName": "Anitha",
+      "createdAt": "2026-10-06T11:20:16.553Z",
+      "updatedAt": "2026-10-06T11:20:16.553Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d97c104ca3af67cacefd",
+      "id": "act-1791285628646-1tv4f",
+      "visitId": "vis-1791284929426",
+      "action": "CHECKED_IN",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor verified identity (National ID - ID-129777) and checked in at Front Reception. QR Badge issued.",
+      "remarks": "",
+      "passNumber": "VP-2026-0103",
+      "visitorName": "Vimal",
+      "createdAt": "2026-10-06T11:20:28.646Z",
+      "updatedAt": "2026-10-06T11:20:28.646Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d985104ca3af67cacefe",
+      "id": "act-1791285637325-delax",
+      "visitId": "vis-1791285008887",
+      "action": "CHECKED_OUT",
+      "performedBy": {
+        "id": "usr-1791276770558",
+        "name": "Divya",
+        "role": "RECEPTIONIST",
+        "email": "divya@gmail.com"
+      },
+      "details": "Visitor badge returned. Checked out of premises. Total on-site time: 1 minutes.",
+      "remarks": "",
+      "passNumber": "VP-2026-0104",
+      "visitorName": "Sunitha",
+      "createdAt": "2026-10-06T11:20:37.325Z",
+      "updatedAt": "2026-10-06T11:20:37.325Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4d98d104ca3af67caceff",
+      "id": "act-1791285645175-wsqhg",
+      "visitId": "vis-1791284929426",
+      "action": "CHECKED_OUT",
+      "performedBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST",
+        "email": "surya@gmail.com"
+      },
+      "details": "Visitor badge returned. Checked out of premises. Total on-site time: 0 minutes.",
+      "remarks": "",
+      "passNumber": "VP-2026-0103",
+      "visitorName": "Vimal",
+      "createdAt": "2026-10-06T11:20:45.175Z",
+      "updatedAt": "2026-10-06T11:20:45.175Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4db1fd56b35703b3459ac",
+      "id": "act-1791286047144-s40qh",
+      "visitId": "vis-1791286047069",
+      "action": "CREATED",
+      "performedBy": {
+        "id": "usr-1791276596865",
+        "name": "Surya",
+        "role": "RECEPTIONIST",
+        "email": "surya@gmail.com"
+      },
+      "details": "Visitor registration submitted for Sathya (Direct) visiting Priya (Backend) on 2026-10-06 at 17:11.",
+      "remarks": "",
+      "passNumber": "VP-2026-0105",
+      "visitorName": "Sathya",
+      "createdAt": "2026-10-06T11:27:27.144Z",
+      "updatedAt": "2026-10-06T11:27:27.144Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ac4db44d56b35703b3459ad",
+      "id": "act-1791286084982-0qs4s",
+      "visitId": "vis-1791286047069",
+      "action": "REJECTED",
+      "performedBy": {
+        "id": "usr-1791276862379",
+        "name": "Priya",
+        "role": "EMPLOYEE",
+        "email": "priya@gmail.com"
+      },
+      "details": "Visit request rejected by Priya. Reason: Meeting",
+      "remarks": "Meeting",
+      "passNumber": "VP-2026-0105",
+      "visitorName": "Sathya",
+      "createdAt": "2026-10-06T11:28:04.982Z",
+      "updatedAt": "2026-10-06T11:28:04.982Z",
+      "__v": 0
+    }
+  ],
+  "savedAt": "2026-10-06T12:02:23.070Z"
+}
